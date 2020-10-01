@@ -22,6 +22,7 @@ header {
 .secondary {
   background-color: hsla(270, 80%, 25%, 0.11);
   box-shadow: 0px 0px 17px 0px;
+  transition: all 0.5s ease-in-out;
 }
 
 ul {
@@ -38,6 +39,7 @@ header nav {
 
 .logo img {
   margin-top: 10px;
+  padding-ri: 20px;
 }
 
 header nav ul li a {
@@ -98,6 +100,60 @@ header nav ul li a:hover {
   font-size: 35px;
   margin-right: 10px;
 }
+
+.intro-area {
+  position: relative;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.sub-heading {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.sub-heading:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3%;
+  width: 6%;
+  height: 1px;
+  background-color: hsla(250, 90%, 28%, 0.858);
+  z-index: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.sub-heading:hover:before {
+  width: 24%;
+  margin-left: -120px;
+}
+
+.sub-heading:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12%;
+  width: 24%;
+  height: 1px;
+  background-color: hsla(270, 80%, 25%, 0.11);
+}
+
+.sub-heading p {
+  color: hsla(233, 100%, 54%, 0.11);
+  display: inline-block;
+  padding: 0px 0px 20px;
+  position: relative;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+
+/* images */
 
 .img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
