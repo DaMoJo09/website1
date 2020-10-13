@@ -237,12 +237,12 @@ header nav ul li a:hover {
 }
 
 .feature-area {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../images/img3.PNG);
 }
 
 .feature-area {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
     url(../images/img3.PNG);
     background-position: center;
     background-attachment: fixed;
@@ -320,6 +320,36 @@ header nav ul li a:hover {
   border:2px solid hsla(0, 0%, 4%, 0.728);
   background: whitesmoke;
   color: darkorchid;
+}
+
+.single-feature:nth-of-type(even) {
+ border-right: none;
+
+
+}
+
+.single-feature:nth-last-child(2) {
+ border-bottom: none;
+
+
+}
+.single-feature:last-child {
+ border-bottom: none;
+
+
+}
+
+.feature-area {
+  padding: 100px;
+}
+  
+
+
+}
+
+.feature-mockup {
+  bottom: -220px;
+  position: relative;
 }
 
 
