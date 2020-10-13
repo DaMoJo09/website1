@@ -344,12 +344,14 @@ header nav ul li a:hover {
 }
   
 
-
+.feature-mockup {
+  bottom: -225px;
+  position: relative;
 }
 
-.feature-mockup {
-  bottom: -220px;
-  position: relative;
+.title .sub-heading p {
+
+  color: whitesmoke;
 }
 
 
