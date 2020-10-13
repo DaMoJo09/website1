@@ -231,9 +231,23 @@ header nav ul li a:hover {
   color: hsla(0, 0%, 4%, 0.728);
 }
 
+.intro-block:hover h3,
+.intro-block:hover p {
+  color: hsla(216, 80%, 25%, 0.11);
+}
+
 .feature-area {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/img3.PNG);
+}
+
+.feature-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+    url(../images/img3.PNG);
+}
+
+.title h2 {
+  color: hsla(272, 100%, 11%, 0.125);
 }
 
 /* images */
